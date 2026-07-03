@@ -1,7 +1,6 @@
 import { MongoClient } from "mongodb";
 import dotenv from 'dotenv';
 
-// Call dotenv.config() to load environment variables from .env file
 dotenv.config();
 
 const password = encodeURIComponent(process.env.MONGO_PASSWORD.trim());
