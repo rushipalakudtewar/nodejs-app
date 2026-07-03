@@ -18,5 +18,4 @@ try {
 } catch(e) {
   console.error(e);
 }
-// let db = conn.db("techgroniva_db_user");
 export default db;
